@@ -1,11 +1,25 @@
 .text {
-    border: 1px solid;
-
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    height: 10px;
+    width: 2px;
+    background-color: black;
 }
 
 .container{
-    width: 50px;
+    width:min-content;
+    padding-left: 1px;
 }
+
+.image-container{
+width:600px;
+height:600px;
+}
+
+
+.image-container img{
+width:100%;
+height:100%;
+object-fit: cover;
+object-fit: contain;
+object-fit: fill;
+}
+
