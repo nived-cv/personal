@@ -23,3 +23,18 @@ object-fit: contain;
 object-fit: fill;
 }
 
+.box1{
+background-color:red;
+height:100px;
+width:200px;
+z-index:1;
+margin-left:60px;
+}
+.container-1{
+background-color:yellow;
+height:200px;
+width:400px;
+padding-left:20px;
+
+}
+
