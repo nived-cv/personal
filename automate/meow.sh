@@ -1,19 +1,26 @@
 
-#  a=`wc -l *.json`
- 
-#  for x in $a
-#  do
-#  echo "$x \."
-#  done
-#cat *js | wc -l
+current=$(pwd)
+lookup=$(grep -c $current lookup.csv)
 
-#b=`echo"a.{html,css,js}"`
+newJsLines=$(cat *.js | wc -l)
 
-#rm a.{html,css,js} \
+if (( $lookup == 0))
+then
+echo "$current," >> lookup.csv
 
-#cat "index.{html,css,js}" | wc -l  #working
+else
+oldJsLines=$(awk -F, -v curr=$current '{ if(curr == $1) print curr ":"}' lookup.csv)
+echo $oldJsLines | tr ":" "\n"
+fi
 
-#
+# newHtmlLines=$(cat *.html | wc -l)
+# newCssLines=$(cat *.css | wc -l)
+# newJsLines=$(cat *.js | wc -l)
+
+# linesofjs=`cat index.js | wc -l`
+# linesofjson=`cat *json | wc -l`
+# length= echo "$linesofjs-$linesofjson"|bc
+# echo $length
 
 
 
