@@ -22,5 +22,7 @@
 # variable="pottan"
 # sed -i "s/1/3/" values.csv
 
-search=$(grep "das" values.csv | wc -l)
-echo $search
+#search=$(grep "das" values.csv | wc -l)
+#echo $search
+
+

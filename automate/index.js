@@ -33,4 +33,3 @@ exec('cat *.json | wc -l',(err,stdout,stderr)=>{
   }
     
 })
-
