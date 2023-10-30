@@ -25,4 +25,33 @@
 #search=$(grep "das" values.csv | wc -l)
 #echo $search
 
+# variable=$(date +%a)
+# echo $variable
+# echo "$1"       #passed terminal arguements by position $1 $2 etc...
+
+
+# function killMe () {
+#     echo "hey"
+# }
+
+# killMe
+
+# echo "hey there " > 'blank.csv'
+
+# echo "totalHtml,totalCss,totalJs,totalLines" > 'trail.csv'
+# echo "total,0,0,0"
+
+# echo -e "\n1,nived,meow" >> 'values.csv'
+
+# lookup=$(find '/home/nived/bin/looku.csv' | wc -l)
+# echo $lookup
+
+# day=$(date +%a)
+# if [ $day == "Tue" ]
+# then
+# echo "yes"
+# fi
+a=10
+b=20
+sed -i "s|1,nived,meow,20|1,nived,meow,2|" 'values.csv'
 

@@ -1,4 +1,14 @@
 
+#stats v2.0.0
+# setting up : 
+# - create a /bin in /home
+# move this file [ie stats.sh] to the bin/ created now
+# edit the file stats.sh  find and replace every 'lookup.csv' to 'home/your_username/bin/lookup.csv'
+# edit the /home/.bashrc file, add line export PATH="$PATH:/home/username/bin"  and alias stats='stats.sh'
+
+# this script only counts html,css and js - in sub directories as well
+# does not count lines of code in /node_modules/
+# modification to lines or operations resulting in same number of lines will not be counted
 
 current=$(pwd)
 lookup=$(grep -l $current 'lookup.csv' | wc -l)
@@ -55,9 +65,3 @@ sed -i "s|week,$weeklyLines|week,0|" 'lookup.csv'
 else
 sed -i "s|week,$weeklyLines|week,$totalDaily|" 'lookup.csv'
 fi
-
-
-# Needs to be fixed
-## doesnt recursively counts in directories
-## doesnt display total for week / month
-## doesnt count modifications / completely redoing the same number of lines etc [contents arent checked]
