@@ -63,5 +63,6 @@ then
 echo -e "\nweekly Lines : $weeklyLines"
 sed -i "s|week,$weeklyLines|week,0|" 'lookup.csv'
 else
+totalDaily=$(($totalDaily + $weeklyLines))
 sed -i "s|week,$weeklyLines|week,$totalDaily|" 'lookup.csv'
 fi
