@@ -1,5 +1,5 @@
 
-#stats v2.1.0
+#stats v2.1.1
 # setting up : 
 # - create a /bin in /home
 # move this file [ie stats.sh] to the bin/ created now
@@ -35,17 +35,6 @@ oldTotalCssLines=$(awk -F, '{ if("total" == $1) print $3}' '/home/nived/bin/look
 oldTotalJsLines=$(awk -F, '{ if("total" == $1) print $4}' '/home/nived/bin/lookup.csv')
 weeklyLines=$(awk -F, '{ if("week" == $1) print $2}' '/home/nived/bin/lookup.csv')
 
-if (( $lookup == 0))
-then
-totalDaily=$(($newJsLines + $newHtmlLines + $newCssLines))
-sed -i "s|total,$oldTotalHtmlLines,$oldTotalCssLines,$oldTotalJsLines|total,$newHtmlLines,$newCssLines,$newJsLines|" '/home/nived/bin/lookup.csv'
-echo "$current,$newHtmlLines,$newCssLines,$newJsLines" >> '/home/nived/bin/lookup.csv'
-echo -e "\n html  :" $newHtmlLines "\n css   :" $newCssLines "\n js    :" $newJsLines "\n$totalDaily"
-else
-oldHtmlLines=$(awk -F, -v curr=$current '{ if(curr == $1) print $2}' '/home/nived/bin/lookup.csv')
-oldCssLines=$(awk -F, -v curr=$current '{ if(curr == $1) print $3}' '/home/nived/bin/lookup.csv')
-oldJsLines=$(awk -F, -v curr=$current '{ if(curr == $1) print $4}' '/home/nived/bin/lookup.csv')
-
 jsLines=$(($newJsLines - $oldJsLines))
 htmlLines=$(($newHtmlLines - $oldHtmlLines))
 cssLines=$(($newCssLines - $oldCssLines))
@@ -54,6 +43,19 @@ totalDaily=$(($jsLines + $htmlLines + $cssLines))
 newTotalHtmlLines=$(($htmlLines + $oldTotalHtmlLines))
 newTotalCssLines=$(($cssLines + $oldTotalCssLines))
 newTotalJsLines=$(($jsLines + $oldTotalJsLines))
+
+if (( $lookup == 0))
+then
+totalDaily=$(($newJsLines + $newHtmlLines + $newCssLines))
+sed -i "s|total,$oldTotalHtmlLines,$oldTotalCssLines,$oldTotalJsLines|total,$newTotalHtmlLines,$newTotalCssLines,$newTotalJsLines|" '/home/nived/bin/lookup.csv'
+echo "$current,$newHtmlLines,$newCssLines,$newJsLines" >> '/home/nived/bin/lookup.csv'
+echo -e "\n html  :" $newHtmlLines "\n css   :" $newCssLines "\n js    :" $newJsLines "\n$totalDaily"
+else
+oldHtmlLines=$(awk -F, -v curr=$current '{ if(curr == $1) print $2}' '/home/nived/bin/lookup.csv')
+oldCssLines=$(awk -F, -v curr=$current '{ if(curr == $1) print $3}' '/home/nived/bin/lookup.csv')
+oldJsLines=$(awk -F, -v curr=$current '{ if(curr == $1) print $4}' '/home/nived/bin/lookup.csv')
+
+
 
 sed -i "s|$current,$oldHtmlLines,$oldCssLines,$oldJsLines|$current,$newHtmlLines,$newCssLines,$newJsLines|" '/home/nived/bin/lookup.csv'
 sed -i "s|total,$oldTotalHtmlLines,$oldTotalCssLines,$oldTotalJsLines|total,$newTotalHtmlLines,$newTotalCssLines,$newTotalJsLines|" '/home/nived/bin/lookup.csv'
