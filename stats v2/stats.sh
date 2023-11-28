@@ -1,5 +1,5 @@
 
-#stats v2.1.1
+#stats v2.1.2
 # setting up : 
 # - create a /bin in /home
 # move this file [ie stats.sh] to the bin/ created now
@@ -35,9 +35,9 @@ oldTotalCssLines=$(awk -F, '{ if("total" == $1) print $3}' '/home/nived/bin/look
 oldTotalJsLines=$(awk -F, '{ if("total" == $1) print $4}' '/home/nived/bin/lookup.csv')
 weeklyLines=$(awk -F, '{ if("week" == $1) print $2}' '/home/nived/bin/lookup.csv')
 
-jsLines=$(($newJsLines - $oldJsLines))
-htmlLines=$(($newHtmlLines - $oldHtmlLines))
-cssLines=$(($newCssLines - $oldCssLines))
+jsLines=$(($newJsLines - $oldTotalJsLines))
+htmlLines=$(($newHtmlLines - $oldTotalHtmlLines))
+cssLines=$(($newCssLines - $oldTotalCssLines))
 totalDaily=$(($jsLines + $htmlLines + $cssLines))
 
 newTotalHtmlLines=$(($htmlLines + $oldTotalHtmlLines))
