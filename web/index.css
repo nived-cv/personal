@@ -1,0 +1,24 @@
+
+.grandparent{
+background-color:green;
+border-radius:10px;
+overflow:clip;
+height:fit-content;
+}
+
+.parent{
+	height:300px;
+	width:400px;
+	position:relative;
+	background-color: red;
+}
+
+.child{
+	position:absolute;
+	bottom:0;
+	right:0px;
+	height:130px;
+	width:130px;
+	background-color:yellow;
+}
+
