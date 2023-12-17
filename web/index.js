@@ -1,7 +1,7 @@
 
 const main = () =>{
 
-console.log("hellooo")
+console.log("helloooo")
 
 }
 
