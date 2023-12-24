@@ -1,0 +1,218 @@
+commit a7d476cdc8ef159bc262646d0c2e1d1e1a383a08
+Author: nived-cv <nived.cv@vonnue.com>
+Date:   Tue Dec 19 08:42:15 2023 +0530
+
+    push
+
+commit a4647e191585bcd7d8e03ac525b75bba8245e473
+Author: nived-cv <nived.cv@vonnue.com>
+Date:   Sun Dec 17 11:34:48 2023 +0530
+
+    pushed
+
+commit 5682ad7eacaafcaf0e49eb1f0f814f2e9d188090
+Author: nived-cv <nived.cv@vonnue.com>
+Date:   Sat Dec 16 08:14:56 2023 +0530
+
+    push again
+
+commit e2db16bcbcdb10af7d289922db32eb8c3b637da4
+Author: nived-cv <nived.cv@vonnue.com>
+Date:   Fri Dec 15 08:13:12 2023 +0530
+
+    push
+
+commit cd9c5ca898fa6a7f5013a2884d44bcf3032bc0f3
+Author: nived-cv <nived.cv@vonnue.com>
+Date:   Thu Dec 14 10:08:43 2023 +0530
+
+    push
+
+commit 37a44a250efd32b4cc7b32b55254d1f88d413eed
+Author: nived-cv <nived.cv@vonnue.com>
+Date:   Mon Dec 11 08:24:17 2023 +0530
+
+    updated
+
+commit c8dc9f8973572315c97e3bf0a83e1fb1c69e4eea
+Author: nived-cv <nived.cv@vonnue.com>
+Date:   Sun Dec 10 08:34:38 2023 +0530
+
+    updated
+
+commit 9f6acd2995add44f415391c80ddf69e2361f112e
+Author: nived-cv <nived.cv@vonnue.com>
+Date:   Sat Dec 9 13:14:25 2023 +0530
+
+    print doesn't work in javascript
+
+commit c98329126301cc1d9a5147fd43145b41a92a6b71
+Author: nived-cv <nived.cv@vonnue.com>
+Date:   Thu Dec 7 12:20:06 2023 +0530
+
+    jsut for streaks
+
+commit 63409a5ae9d187b2c7931c3cdc5c8b3dc22bf46d
+Author: nived-cv <nived.cv@vonnue.com>
+Date:   Wed Dec 6 17:36:35 2023 +0530
+
+    push
+
+commit 370f123d93e3b200b010533d0248900c6b8c0fa0
+Author: nived-cv <nived.cv@vonnue.com>
+Date:   Sat Dec 2 23:24:53 2023 +0530
+
+    push
+
+commit 1f097a8f0b08d70b2a71fc08b3fbb8787492f781
+Author: nived-cv <nived.cv@vonnue.com>
+Date:   Tue Nov 28 19:53:43 2023 +0530
+
+    fixed issue and updated install_file
+    
+    fixed issue of not counting lines, and updated install file to change
+    path of stats.sh file to specific of user.
+
+commit 86c5d9dd9a831c94436dbe30a4a15dc109fc72f7
+Author: nived-cv <nived.cv@vonnue.com>
+Date:   Tue Nov 28 17:49:04 2023 +0530
+
+    added an install file
+
+commit f7aba85d72e2e12b1f0c65eac034e509d5cf9290
+Author: nived-cv <nived.cv@vonnue.com>
+Date:   Tue Nov 28 17:02:39 2023 +0530
+
+    fixed issue total overriting
+
+commit 7045b6c47ece6a11b01979e01422a4126b05618a
+Author: nived-cv <nived.cv@vonnue.com>
+Date:   Mon Nov 27 19:47:56 2023 +0530
+
+    push monday
+
+commit e619cb7c5814e3dad135dc4280b64d1c8ce2c8b1
+Author: nived-cv <nived.cv@vonnue.com>
+Date:   Sun Nov 19 10:43:59 2023 +0530
+
+    done
+
+commit 0f930314225998199ab6f029a8dae7ca8e66ec69
+Author: nived-cv <nived.cv@vonnue.com>
+Date:   Sun Nov 12 07:56:38 2023 +0530
+
+    web added
+
+commit 9e2cbbc97c5ba86258c692b0a211d3ec714b3f2f
+Author: nived-cv <nived.cv@vonnue.com>
+Date:   Sat Nov 11 08:05:11 2023 +0530
+
+    2.1.0 added counting for .ts and .tsx
+
+commit 896849e23c9556e85f9df4ddf0ecd120b812b0a6
+Author: nived-cv <146096107+nived-cv@users.noreply.github.com>
+Date:   Sat Nov 4 18:17:19 2023 +0530
+
+    Add files via upload
+
+commit 8670bd5ef22a9bbb6f1eb6c0552cc8e60c175370
+Author: nived-cv <nived.cv@vonnue.com>
+Date:   Sat Nov 4 18:16:18 2023 +0530
+
+    cleanup
+
+commit b195dfbaa577a67adc111dc1372f737ada7a0610
+Author: nived-cv <146096107+nived-cv@users.noreply.github.com>
+Date:   Tue Oct 31 08:55:28 2023 +0530
+
+    2.0.1
+    
+    fixed weekly being refreshed each time.
+
+commit 4abd05eaa7bfed85478e145c923624b3f5f67c31
+Author: nived-cv <nived.cv@vonnue.com>
+Date:   Mon Oct 30 22:27:26 2023 +0530
+
+    stats v2.0.0
+
+commit b41ccab1460bd28fd6f9162ae5799100289c0095
+Author: nived-cv <nived.cv@vonnue.com>
+Date:   Mon Oct 30 22:24:25 2023 +0530
+
+    stats v2.0.0
+
+commit 16d277b40c674ad82658f5b7abd307dcb774af47
+Author: nived-cv <nived.cv@vonnue.com>
+Date:   Sun Oct 29 13:51:44 2023 +0530
+
+    stats v 1.1
+
+commit f34adfcffce0c0fe385a6a037b2ea52fac612842
+Author: nived-cv <nived.cv@vonnue.com>
+Date:   Tue Oct 24 13:04:21 2023 +0530
+
+    1.0.2
+
+commit 11ea2d4b2c18d5dc34b06ffc1b18384f849bffc6
+Author: nived-cv <nived.cv@vonnue.com>
+Date:   Tue Oct 24 12:22:00 2023 +0530
+
+    fix issue
+    
+    -1.0.1 fixed issue of not counting sub dirs in folder
+
+commit 2b38de3b6387d67c1ab1fa0b4c4641b211dd21ad
+Author: nived-cv <nived.cv@vonnue.com>
+Date:   Tue Oct 24 11:51:01 2023 +0530
+
+    version 1.0.0 for stats.sh
+
+commit b2d7b4ebfb98ebfdec166d73e29424ed1ad60711
+Author: nived-cv <nived.cv@vonnue.com>
+Date:   Mon Oct 23 09:29:37 2023 +0530
+
+    successfully reading conditonally the file value
+
+commit 5ad52b0d709fa9d282b0e522d1284d54183f1fd4
+Author: nived-cv <nived.cv@vonnue.com>
+Date:   Sun Oct 22 10:06:41 2023 +0530
+
+    stats counter app initial setup
+
+commit 1ff43b288efab6af4ac45d1d49ac184b859e9306
+Author: nived-cv <nived.cv@vonnue.com>
+Date:   Sun Oct 15 08:36:02 2023 +0530
+
+    Creating Project Automate
+    
+    Project for automating fetching ct and act
+
+commit 99a9cee0729d832e9879006f76590c7a13610d59
+Author: nived-cv <nived.cv@vonnue.com>
+Date:   Sun Oct 8 08:08:47 2023 +0530
+
+    ok ?
+
+commit 1fd7383bfff44f156baf27cfc40e108e8d3bdb31
+Author: nived-cv <nived.cv@vonnue.com>
+Date:   Sun Oct 8 08:00:01 2023 +0530
+
+    anything
+
+commit a95766a6301d52e3bb5775791fbd4fe07c687d38
+Author: nived-cv <nived.cv@vonnue.com>
+Date:   Sun Oct 8 07:48:40 2023 +0530
+
+    object fit property
+
+commit e2679dcc9c0bff8e7b51567621719edce44db9c8
+Author: nived187 <nived187@outlook.com>
+Date:   Wed Sep 27 22:29:26 2023 +0530
+
+    added files
+
+commit 32fad0285b24c7c2fe705964ee9bce91d89833ee
+Author: nived187 <nived187@outlook.com>
+Date:   Tue Sep 26 18:30:58 2023 +0530
+
+    aadded
