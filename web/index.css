@@ -15,7 +15,7 @@ height:fit-content;
 
 .child{
 	position:absolute;
-	bottom:0;
+	bottom:1px;
 	right:0px;
 	height:130px;
 	width:130px;
