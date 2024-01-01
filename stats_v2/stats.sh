@@ -6,7 +6,6 @@
 
 current=$(pwd)
 lookup=$(grep -l $current '/home/nived/bin/lookup.csv' | wc -l)
-echo "lookup" $lookup
 day=$(date +%a)
 
 newHtmlLines=$(find . -name "*.html" -not -path '*/node_modules/*' -exec cat {} + | grep . | wc -l)
