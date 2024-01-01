@@ -1,8 +1,9 @@
 package main
 import (
 	"fmt"
-	//"io/ioutil"
+	"io/ioutil"
 	//"encoding/json"
+	"os"
 )
 
 type fileData struct{
@@ -11,27 +12,18 @@ type fileData struct{
 }
 
 func main(){
-	//fmt.Println("hi")
-	// fmt.Println(getname())
-	readtoMem()
-}
-
-func getname() (byte){
-	return 102
-}
-
-func readtoMem(){
-	// data, err := ioutil.ReadFile("dummy.json")
-
-	// if err != nil {
-	// 	fmt.Println("file reading error", err)
-	// }
-	// var result fileData
-	// json.Unmarshal(data,&result)
-	// fmt.Println(result)
-
-	var user []fileData = { "name" : "akash", age: 10}
 	
+	readCmdArgs()
+	readContents()
+}
 
-	fmt.Println(user)
+
+func readCmdArgs() {
+	var a = os.Args[1:]
+	fmt.Println(a)
+}
+
+func readContents() {
+	var data,_ = ioutil.ReadFile("dummy.json")
+	fmt.Println(string(data))
 }
