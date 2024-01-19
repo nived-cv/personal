@@ -12,4 +12,6 @@ const func2 =() =>{
 	console.log("what is there in life ??")
 }
 
+const func3 = () => {}
+
 func2()
