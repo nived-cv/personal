@@ -14,6 +14,7 @@ const func2 =() =>{
 
 const func3 = () => {
 	// write something to push
+	// i will
 }
 
 func2()
