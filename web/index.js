@@ -15,6 +15,7 @@ const func2 =() =>{
 const func3 = () => {
 	// write something to push
 	// i will ok
+	// please tell me that you are pushing something valuable other places or doing something good
 }
 
 func2()
