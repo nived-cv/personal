@@ -1,0 +1,146 @@
+17	4	stats_v2/statsDev.sh
+15	0	stats/install.sh
+8	0	stats/lookup.csv
+74	0	stats/stats.sh
+0	5	statsgo/dummy.json
+4	0	statsgo/folder1/index.css
+11	0	statsgo/folder1/index.html
+11	0	statsgo/folder2/index.html
+5	0	statsgo/folder2/index.js
+0	0	statsgo/stats.go
+-	-	statsgo/test
+8	19	statsgo/test.go
+1	0	web/checkmark.svg
+1	0	web/index.html
+2	0	web/index.js
+1	0	web/index.js
+1	0	web/index.js
+1	0	web/index.js
+1	1	web/index.js
+1	0	web/index.js
+1	1	web/index.js
+3	1	web/index.js
+2	0	web/index.js
+1	1	web/index.js
+1	1	web/index.js
+1	1	web/index.js
+1	1	web/index.js
+1	1	web/index.js
+8	0	doubts do/regex.js
+4	0	stats_v2/branches.txt
+616	0	stats_v2/commits.txt
+14	0	stats_v2/statsDev.sh
+0	0	stats_v2/statsDev.sh
+1	1	web/index.js
+1	1	web/index.js
+1	1	web/index.js
+5	0	statsgo/dummy.json
+-	-	statsgo/test
+0	1	stats_v2/stats.sh
+0	7	stats v2/lookup.csv
+7	0	stats_v2/CSS.css
+7	0	stats_v2/index.js
+0	0	{stats v2 => stats_v2}/install.sh
+8	0	stats_v2/lookup.csv
+1	0	stats_v2/sample.html
+36	33	{stats v2 => stats_v2}/stats.sh
+8	0	stats_v2/test.sh
+12	20	statsgo/test.go
+1	1	web/index.js
+8	0	doubts do/JS.js
+8	0	doubts do/date.js
+1	1	web/index.js
+1	0	web/index.js
+1	1	web/index.js
+28	4	statsgo/test.go
+1	1	web/index.js
+1	1	web/index.css
+1	0	bash/test.sh
+218	0	bash/test.txt
+0	0	statsgo/stats.go
+13	0	statsgo/test.go
+0	1	web/index.css
+6	0	web/index.js
+1	1	web/index.js
+1	1	web/index.js
+1	1	web/index.js
+8	2	web/index.html
+0	1	web/index.js
+1	0	web/index.js
+24	0	web/index.css
+10	2	web/index.html
+8	0	web/index.js
+1	1	web/index.html
+1	0	web/index.html
+1	0	web/index.html
+4	3	stats v2/install.sh
+1	2	stats v2/lookup.csv
+4	4	stats v2/stats.sh
+14	0	stats v2/install.sh
+2	2	stats v2/lookup.csv
+0	0	stats v2/stats.sh
+11	9	stats v2/stats.sh
+1	0	web/index.html
+0	57	automate/learn.sh
+0	8	automate/lookup.csv
+0	63	automate/stats.sh
+0	10	automate/values.csv
+11	0	web/index.html
+25	23	stats v2/stats.sh
+8	0	stats v2/lookup.csv
+68	0	stats v2/stats.sh
+0	35	automate/index.js
+0	1820	automate/package-lock.json
+0	9	automate/package.json
+0	10	automate/sample.css
+0	1	automate/sample.html
+0	27	index.html
+0	4	learning
+0	8	stats-2.0.0/lookup.csv
+0	68	stats-2.0.0/stats.sh
+0	40	style.css
+1	0	stats-2.0.0/stats.sh
+8	0	stats-2.0.0/lookup.csv
+0	0	automate/0
+29	0	automate/learn.sh
+3	3	automate/lookup.csv
+0	5	automate/lookup.txt
+31	9	automate/stats.sh
+0	2	automate/temporary/index.js
+9	1	automate/values.csv
+67	0	stats-2.0.0/stats.sh
+1	2	automate/index.js
+4	2	automate/learn.sh
+8	1	automate/lookup.csv
+1	0	automate/sample.html
+17	8	automate/stats.sh
+13	11	automate/stats.sh
+0	0	automate/0
+26	0	automate/learn.sh
+1	0	automate/lookup.csv
+5	0	automate/lookup.txt
+10	0	automate/sample.css
+0	0	automate/sample.html
+30	0	automate/stats.sh
+2	0	automate/temporary/index.js
+2	0	automate/values.csv
+0	28	automate/meow.sh
+31	19	automate/index.js
+18	11	automate/meow.sh
+2	2	automate/package.json
+10	10	automate/index.js
+21	0	automate/meow.sh
+5	1	index.html
+15	0	style.css
+1	0	.gitignore
+24	0	automate/index.js
+1820	0	automate/package-lock.json
+9	0	automate/package.json
+1	0	learning
+1	1	learning
+5	1	index.html
+20	6	style.css
+3	0	.vscode/settings.json
+19	0	index.html
+11	0	style.css
+3	0	learning

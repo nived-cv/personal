@@ -1,8 +1,9 @@
 
-if ((10 < 20))
+value=true
+
+if [ $value == false ]
 then 
-Name="Nived"
-
+echo ' true case'
+else
+echo 'false case '
 fi
-
-echo $Name

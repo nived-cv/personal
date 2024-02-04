@@ -1,27 +1,30 @@
-# git branch >> branches.txt
-# git log --author='nived' >> commits.txt
-
-function get_branches() {
-   git branch > branches.txt
-   sed -i "s|*||" branches.txt
-   readarray a < branches.txt
-    for letter in $a; do
-        echo $letter
-    done
-}
 
 function get_changes() {
-    readarray branches < branches.txt
-    echo $branches
+    branches=$( git branch | tr '*' ' ')
     for branch in $branches; do 
-        git checkout $branch
-        echo 'hi'
-        git log --author='nived' > `${branch}.txt`
+        git log $branch --author='nived' --pretty=tformat: --numstat > "$branch.txt"
+        total=$(awk -F'\t' -v prev=$total '{prev += $1} END {print prev}' "$branch.txt")
+        # rm "$branch.txt"
     done
+    echo $total
+}
+
+function commitChanges() {
+    git add .
+    git commit -am "chore(stats): commiting to get lines of count"
 }
 
 function main() {
+
+    isGitRepo=$(git rev-parse --is-inside-work-tree)
+    
+    if [ $isGitRepo == true ]
+    then
     get_changes
+    else 
+    git init
+    commitChanges
+    fi
 }
 
 main
