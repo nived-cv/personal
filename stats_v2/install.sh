@@ -1,6 +1,8 @@
 # set file to executable before executing
 # execute by ./install.sh
 user=$(whoami)
+gitEmail=$(git config user.email)
+sed -i "s/nived.cv@vonnue.com/$gitEmail/" "stats.sh"
 sed -i "s/nived/$user/" "stats.sh"
 
 mkdir ~/bin/
