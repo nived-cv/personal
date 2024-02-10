@@ -18,6 +18,7 @@ const func3 = () => {
 	// please tell me that you are pushing something valuable other places or doing something good
 	// I dont even know what to begin with, lack of planning in the morning
 	// it's saturday saturday
+	// day 1 since released git stats
 }
 
 
