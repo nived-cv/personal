@@ -19,6 +19,7 @@ const func3 = () => {
 	// I dont even know what to begin with, lack of planning in the morning
 	// it's saturday saturday
 	// day 1 since released git stats
+	// plan for a vs code extention to keep track of time / project
 }
 
 
